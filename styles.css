@@ -2,7 +2,7 @@ body {
   background-color: white;
   padding: 0;
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* header */
@@ -11,72 +11,89 @@ body {
   background: linear-gradient(76deg, rgb(0, 54, 153), rgb(0, 84, 255) 99%);
   height: 8em;
 }
-.logo h1{
-    position: absolute;
-    top: 7%;
-    left: 3%;
-    font-size: 1.5em;
-    color: white;
+.logo h1 {
+  position: absolute;
+  top: 7%;
+  left: 3%;
+  font-size: 1.5em;
+  color: white;
 }
-.search-bar{
-    position: absolute;
-    right: 20%;
-    top: 6%;
-    width: 50%;
-    margin: 0 auto;
+.search-bar {
+  position: absolute;
+  right: 20%;
+  top: 6%;
+  width: 50%;
+  margin: 0 auto;
 }
-.search-btn{
-    position: relative;
-    left: 5%;
-    width: 30%;
+.search-btn {
+  position: relative;
+  left: 5%;
+  width: 30%;
 }
 
 /* filter */
 
-.filters{
-    margin: 3em;
-    text-align: center;
-    border-top-color: white;
-    display: inline-block;
-    position: relative;
-
+.filters {
+  margin: 3em;
+  text-align: center;
+  border-top-color: white;
+  display: inline-block;
+  position: relative;
 }
-.filters ul li{
-    margin: 0 auto;
-    border-color: white;
+.filters ul li {
+  margin: 0 auto;
+  border-color: white;
 }
 
 /* Search results */
 
-.listkill{
-    position: absolute;
-    right: 0;
-    top: 21%;
-    margin: 2em;
-    width: 70%;
-    height: 70%;
+.listkill {
+  position: absolute;
+  right: 0;
+  top: 21%;
+  margin: 2em;
+  width: 70%;
+  height: 70%;
 }
-.hidden-img{
-    width: 5em;
-    height: 5em;
-    border-radius: 100%;
+.hidden-img {
+  width: 5em;
+  height: 5em;
+  border-radius: 100%;
 }
-.list-item{
-    margin: 1em 0;
-    background: linear-gradient(76deg, rgb(0, 54, 153), rgb(0, 84, 255) 99%);
-    color: white;
-    border: none;
-    padding: 2em;
+.list-item {
+  margin: 1em 0;
+  background: linear-gradient(76deg, rgb(0, 54, 153), rgb(0, 84, 255) 99%);
+  color: white;
+  border: none;
+  padding: 2em;
 }
-.list-item:hover{
-    color: white;
+.list-item:hover {
+  color: white;
 }
-.list-item:visited{
-    color: white;
+.list-item:visited {
+  color: white;
 }
-#accordionExample{
-    color: black;
+#accordionExample {
+  color: black;
 }
-#results h5{
-    font-size: 3em;
+#results h5 {
+  font-size: 3em;
+}
+@media(max-width :1300px){
+    .logo h1{
+        padding-right: 2%;
+        top: 15px;
+        left: 30%;
+    }
+    .search-bar{
+        top: 65px;
+    }
+    .filters{
+        position: relative;
+        left: 30%;
+    }
+    .listkill{
+        position: relative;
+        left: 10%;
+    }
 }
