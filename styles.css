@@ -2,6 +2,7 @@ body {
   background-color: white;
   padding: 0;
   margin: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* header */
@@ -32,11 +33,11 @@ body {
 /* filter */
 
 .filters{
-    margin: 2em;
+    margin: 3em;
     text-align: center;
     border-top-color: white;
     display: inline-block;
-    position: absolute;
+    position: relative;
 
 }
 .filters ul li{
@@ -46,50 +47,32 @@ body {
 
 /* Search results */
 
-.result-list{
-    display: inline-block;
+.listkill{
     position: absolute;
-    right: 2%;
+    right: 0;
+    top: 21%;
     margin: 2em;
     width: 70%;
-    border: 2px solid  rgb(0, 54, 153);
-}
-
-.list-name{
-    margin: 2em 0;
-}
-.result-btn{
-    margin-top: 1em;
-}
-.result-list h5{
-    position: absolute;
-    top: 5.5em;
-}
-.result-img{
-    width: 10em;
-    height: 10em;
-    border-radius: 100%;
-}
-.col-item{
-    position: relative;
-}
-.list-group-item{
-    border-color: white;
-
+    height: 70%;
 }
 .hidden-img{
-    width: 6em;
-    height: 6em;
-    position: absolute;
-    z-index: 1;
-    right: 1em;
-    float: right;
-    margin: 1em;
+    width: 5em;
+    height: 5em;
     border-radius: 100%;
 }
-.col-item2, .col-item4{
-    left: 50%;
+.list-item{
+    margin: 1em 0;
+    background: linear-gradient(76deg, rgb(0, 54, 153), rgb(0, 84, 255) 99%);
+    color: white;
+    border: none;
+    padding: 2em;
 }
-.collapse{
-    
+.list-item:hover{
+    color: white;
+}
+.list-item:visited{
+    color: white;
+}
+#accordionExample{
+    color: black;
 }
